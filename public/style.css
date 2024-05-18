@@ -1,0 +1,135 @@
+
+body {
+    font-family: 'Rubik', sans-serif;
+    margin:auto;
+    background-color: white;
+    scroll-behavior: smooth;
+    color: #232b2b;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+.homeContent{
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+
+.mainTitle {
+    height: 92.625px;
+    width: 750px;
+    margin: 40px;
+}
+
+.titleBtn {
+  border: none; 
+  background-color: white;
+  border-radius: 50px;
+}
+
+.titleBtn:hover {
+  cursor: pointer;
+}
+
+.links-container {
+  background-color: beige;
+  border-radius: 20px;
+  margin-left: -40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: fit-content;
+  margin-top: 20px;
+}
+
+.links{
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+
+.linkLogoImage {
+  width: 20px;
+  height: 20px;
+}
+
+.linkLogo {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-xy {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.caption {
+  text-align: center;
+  font-size: 25px;
+}
+
+
+
+.blobContainer {
+  margin-left:-40px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.blob {
+  height: 100px;
+  width: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.blob svg {
+  transition: all .3s ease-in-out;
+}
+
+.blob svg:hover {
+  transform: scale(1.2); 
+}
+
+.epTitle {
+  width: 80%;
+  height: 7.84%;
+  margin-top: 50px;
+}
+
+#play-icon {
+  width:20px;
+  height:20px;
+}
+
+.epPlayer {
+  background-color: whitesmoke;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+
+.bio {
+  width: 750px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 15px #453b32,
+  -2px -2px 5px #a9907a;
+}
